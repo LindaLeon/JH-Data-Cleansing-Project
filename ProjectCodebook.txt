@@ -49,11 +49,11 @@ meanFreq: Weighted average of the magnitude variable frequency to obtain a mean 
 
 [1] "SubjectID" 
 	 - the identifier of the subject between the age of 19-48 years who carried out the experiment
-	 - assumes values 1 to 30 
+	 - Integers: 1 to 30 
                  
 [2] "Activity" 
          - activity performed by subject during recorded experiment observation
-	 - factors: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING    
+	 - Factors: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING    
 
 All combinations of features/variables described above are listed below and normalized and bounded within [-1,1].:    
 
